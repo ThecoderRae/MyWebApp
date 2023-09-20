@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>SPA (Single Page Application)</title>
+</head>
+<body>
+    <div class="container">
+    <div class="sidebar">
+        <ul>
+            <li>
+                <a href="#" onclick="getPageContent('home')">Home</a>
+            </li>
+            <li>
+                <a href="#" onclick="getPageContent('about-us')">About Us</a>
+            </li>
+            <li>
+                <a href="#" onclick="getPageContent('services')">Services</a>
+            </li>
+            <li>
+                <a href="#" onclick="getPageContent('contact')">Contact Us</a>
+            </li>
+        </ul>
+    </div>
+    <div class="content">
+        <p id="content"></p>
+    </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
